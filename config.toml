@@ -2,6 +2,26 @@ baseURL = "/"
 languageCode = "ru-ru"
 title = "Заводится"
 
+[[menu.main]]
+  name = "Главная"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Услуги"
+  url = "/services/"
+  weight = 2
+
+[[menu.main]]
+  name = "Отзывы"
+  url = "/reviews/"
+  weight = 3
+
+[[menu.main]]
+  name = "Как мы работаем"
+  url = "/process/"
+  weight = 4
+
 [params]
   title = 'Remix, a theme for Hugo fully editable with Netlify CMS'
   metaDescription = "Hugo + Netlify CMS + One click deploy to Netlify"
